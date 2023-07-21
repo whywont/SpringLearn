@@ -4,15 +4,20 @@ import com.example.demo.model.Person;
 import com.example.demo.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.lang.NonNull;
+
 import org.springframework.stereotype.Repository;
 
 import java.util.NoSuchElementException;
 import java.util.Optional;
+
+
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 import java.util.UUID;
+import javax.validation.Valid;
 
 @RequestMapping("api/v1/person")
 @RestController
@@ -49,6 +54,15 @@ public class PersonController {
             throw new ResponseStatusException(
                     HttpStatus.NOT_FOUND, e.getMessage(), e);
         }
+    }
+    @DeleteMapping(path = "{id}")
+    public void deletePersonId(@PathVariable("id") UUID id) {
+        personService.deletePerson(id);
+    }
+
+    @PutMapping(path = "{id}")
+    public void updatePerson(@PathVariable("id") UUID id, @Valid @NonNull @RequestBody Person personToUpdate) {
+        personService.updatePerson(id, personToUpdate);
     }
 
 

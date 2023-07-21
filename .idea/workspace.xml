@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4101c6e2-7470-4a43-af6a-2ad59af65dfe" name="Changes" comment="" />
+    <list default="true" id="4101c6e2-7470-4a43-af6a-2ad59af65dfe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/api/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/api/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/FakePersonDataAccessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/FakePersonDataAccessService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/PersonService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +74,8 @@
       <workItem from="1689299885776" duration="4931000" />
       <workItem from="1689545515688" duration="1799000" />
       <workItem from="1689733271046" duration="5103000" />
-      <workItem from="1689790651012" duration="4839000" />
+      <workItem from="1689790651012" duration="5521000" />
+      <workItem from="1689973467915" duration="2975000" />
     </task>
     <servers />
   </component>
