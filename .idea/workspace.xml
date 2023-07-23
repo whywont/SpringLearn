@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4101c6e2-7470-4a43-af6a-2ad59af65dfe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/api/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/api/PersonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/FakePersonDataAccessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/FakePersonDataAccessService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/api/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/api/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dao/FakePersonDataAccessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/FakePersonDataAccessService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/PersonService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +50,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Andrew/IdeaProjects/demo5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Andrew/Documents/testSpring/spring-boot-react-fullstack&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;95346415f1f5933a78386d1759d2ef22&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -75,7 +84,10 @@
       <workItem from="1689545515688" duration="1799000" />
       <workItem from="1689733271046" duration="5103000" />
       <workItem from="1689790651012" duration="5521000" />
-      <workItem from="1689973467915" duration="2975000" />
+      <workItem from="1689973467915" duration="4016000" />
+      <workItem from="1690059487470" duration="5466000" />
+      <workItem from="1690148510464" duration="2947000" />
+      <workItem from="1690152820366" duration="1081000" />
     </task>
     <servers />
   </component>

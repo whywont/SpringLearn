@@ -4,23 +4,19 @@ import com.example.demo.model.Person;
 import com.example.demo.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import javax.validation.Valid;
 import org.springframework.lang.NonNull;
-
-import org.springframework.stereotype.Repository;
-
 import java.util.NoSuchElementException;
-import java.util.Optional;
-
-
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
-
 import java.util.List;
 import java.util.UUID;
-import javax.validation.Valid;
+
 
 @RequestMapping("api/v1/person")
 @RestController
+@Validated
 public class PersonController {
 
     private final PersonService personService;
@@ -31,7 +27,7 @@ public class PersonController {
     }
 
     @PostMapping
-    public void addPerson(@RequestBody Person person) {
+    public void addPerson(@RequestBody @Valid @NonNull Person person) {
         personService.addPerson(person);
     }
 
@@ -61,6 +57,7 @@ public class PersonController {
     }
 
     @PutMapping(path = "{id}")
+    @Validated
     public void updatePerson(@PathVariable("id") UUID id, @Valid @NonNull @RequestBody Person personToUpdate) {
         personService.updatePerson(id, personToUpdate);
     }

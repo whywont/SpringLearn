@@ -7,18 +7,33 @@ import java.util.UUID;
 public class Person {
     private final UUID id;
     @NotBlank
-    private final String name;
+    private final String firstName;
+
+    private final String lastName;
 
     public Person(@JsonProperty("id") UUID id,
-                  @JsonProperty("name") String name) {
+                  @JsonProperty("firstName") String firstName,
+                    @JsonProperty("lastName") String lastName) {
         this.id = id;
-        this.name = name;
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
     public UUID getId() {
         return id;
     }
 
-    public String getName() {
-        return name;
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() { return lastName; }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "Id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName +
+                '}';
     }
 }
