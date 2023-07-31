@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4101c6e2-7470-4a43-af6a-2ad59af65dfe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/api/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/api/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/FakePersonDataAccessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/FakePersonDataAccessService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/api/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/api/PersonController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/dao/FakePersonDataAccessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/FakePersonDataAccessService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/PersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +29,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2SXjaD70TTEWYcSXPKPoDOU3OSK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -87,7 +82,10 @@
       <workItem from="1689973467915" duration="4016000" />
       <workItem from="1690059487470" duration="5466000" />
       <workItem from="1690148510464" duration="2947000" />
-      <workItem from="1690152820366" duration="1081000" />
+      <workItem from="1690152820366" duration="1677000" />
+      <workItem from="1690341657957" duration="1200000" />
+      <workItem from="1690586472985" duration="620000" />
+      <workItem from="1690777753434" duration="2312000" />
     </task>
     <servers />
   </component>
