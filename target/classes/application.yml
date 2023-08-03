@@ -1,6 +1,7 @@
 app:
   datasource:
-    jdbc-url: jdbc:postgresql://localhost:5432/demodb
+    jdbc-url: jdbc:postgresql://localhost:5433/demodb
+    driver-class-name: org.postgresql.Driver
     username: postgres
     password: password
     hikari:
